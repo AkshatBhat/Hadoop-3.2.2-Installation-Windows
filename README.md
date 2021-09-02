@@ -1,4 +1,4 @@
-# Hadoop-3.2.2-Installation
+# Hadoop-3.2.2-Installation-Windows
 
 - Download and Install hadoop-3.2.2 from the [Official Site](https://hadoop.apache.org/releases.html).
 - Create a data folder inside of which create two folders namely, 'datanode' and 'namenode'.
