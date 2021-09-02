@@ -4,9 +4,13 @@
 - Create a data folder inside of which create two folders namely, 'datanode' and 'namenode'.
 - Edit the following xml files by taking the uploaded files as a reference. You can find them in the 'etc' folder:
   - core-site.xml
+    - Here there are two alternatives to try. In case the current file does not work, you can uncomment the code below and try.
   - hdfs-site.xml
+    - Here you can even try changing the value attribute from this ```<value>file:///D:/hadoop/data/namenode</value>``` to ```<value>D:\hadoop\data\namenode</value>``` or this ```<value>/hadoop/data/namenode</value>``` and see which one works best for you.
   - mapred-site.xml
+    - The working file has been uploaded. No alternatives found. 
   - yarn-site.xml
+    - The working file has been uploaded. No alternatives found.
 - Edit the line ```set JAVA_HOME=%JAVA_HOME%``` by replacing JAVA_HOME with the path to your Java SDK.
     - For example: ```set JAVA_HOME=C:\Progra~2\Java\jdk```
 - Set user environment variables for ```HADOOP_HOME``` and ```JAVA_HOME``` and define the same in the system path environment variables too.
@@ -27,7 +31,7 @@ You can check these two links to see if a cluster if running:
 - ``` http://localhost:9870/ ```
 
 ### Note:
-I have only uploaded the folders that required some changes after downloading and installing hadoop from the official site. t
+I have only uploaded the folders that required some changes after downloading and installing hadoop from the official site.
 There maybe variations in some of the xml files that may work out for you.
-If they do then awesome 👍 but if they don't you can try and take help from these files that I have uploaded.
-Hopefully they work for you too 😎
+If they do then great but if they don't, you can try and take help from these files that I have uploaded.
+Hopefully they work for you too!
