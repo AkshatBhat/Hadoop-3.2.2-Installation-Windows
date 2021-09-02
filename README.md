@@ -6,7 +6,7 @@
   - core-site.xml
     - Here there are two alternatives to try. In case the current file does not work, you can uncomment the code below and try.
   - hdfs-site.xml
-    - Here you can even try changing the value attribute from this ```<value>file:///D:/hadoop/data/namenode</value>``` to ```<value>D:\hadoop\data\namenode</value>``` or this ```<value>/hadoop/data/namenode</value>``` and see which one works best for you.
+    - Here you can even try changing the value attribute from this ```<value>file:///D:/hadoop/data/namenode</value>``` to ```<value>D:\hadoop\data\namenode</value>``` or ```<value>/hadoop/data/namenode</value>``` and see which one works best for you.
   - mapred-site.xml
     - The working file has been uploaded. No alternatives found. 
   - yarn-site.xml
