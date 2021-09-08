@@ -1,6 +1,6 @@
 # Hadoop-3.2.2-Installation-Windows
 
-- Download and Install hadoop-3.2.2 from the [Official Hadoop Site](https://hadoop.apache.org/releases.html).
+- Download and Install hadoop-3.2.2 from the [Official Hadoop Site](https://hadoop.apache.org/releases.html) or unzip the ```hadoop.7z``` file.
 - Create a ```data``` folder inside of which create two folders namely, ```datanode``` and ```namenode```.
 - Edit the following xml files by taking the uploaded files as a reference. You can find them in the ```etc``` folder:
   - **core-site.xml**
