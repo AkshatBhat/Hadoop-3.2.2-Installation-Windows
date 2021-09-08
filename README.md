@@ -26,7 +26,7 @@
   1228 NodeManager 
   ~~~
   
-You can check these two links to see if a cluster if running:
+You can check these two links to see if a cluster is running:
 - ``` http://localhost:8088/cluster ```
 - ``` http://localhost:9870/ ```
 
